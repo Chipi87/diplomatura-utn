@@ -1,0 +1,16 @@
+h1{
+  color: red;  
+}
+.contenido_verde{ background-color:chartreuse}
+#pie {color: blueviolet;}
+.menu_superior{
+    list-style: none;
+    text-align: center;
+}
+.menu_superior li{
+display:inline-block
+}
+.menu_superior a{ text-decoration: none;
+font-weight: 100;
+font-size: x-large;
+padding: 2rem;}
