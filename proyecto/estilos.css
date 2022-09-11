@@ -12,20 +12,21 @@ html{
 }
 
 .encabezado{
-    background-image: url(./IMG/Fondo.png);
-    background-color: whitesmoke;
+    background-image: url(./IMG/banner3.jpg);   /* IMAGEN NO QUEDA ACORDE AL ENCABEZADO */
+    background-color: rgb(201, 248, 252);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 25vh;
+    background-position: left;
+    background-size: auto;
+    height: 300vh;
     padding: 2rem;
-
+    height: 10rem;
 
 }
 
 .menu_superior{
     list-style: none;
     text-align: center;
+    
 
 }
 
@@ -36,8 +37,56 @@ html{
 .menu_superior a{
     text-decoration: none;
     font-size: 1.9rem;
-    color: rgb(57, 6, 245);
+    color: red;
     padding: 2rem;
     font-weight: bold
 }
 
+#texto_inicio{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.contenido{
+    background-color: rgb(201, 248, 252);
+    padding: 1rem;
+}
+
+.contenido_imagen{
+    width: 50%;
+    text-align: center;
+}
+
+.contenido_imagen img{
+    width: 80%;
+    height: 80%;
+    margin: 1rem;
+    box-shadow: 5px 5px rgb(107, 107, 107, 0.514);
+    border-radius: 10px;
+}
+
+.contenido_inicio {
+display: flex;
+align-items: stretch;
+}
+
+/* FOOTER */
+
+.footer{                         
+    background-color: whitesmoke;
+}
+
+.bloque_footer{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+}
+
+.menu_footer{
+    list-style: none;
+}
+
+.menu_footer a{
+    color: black;
+}
