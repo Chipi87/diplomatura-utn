@@ -1,0 +1,78 @@
+/* Normalize */
+
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+body{
+    padding: 20vh 10%;
+    background: linear-gradient(180deg, rgb(93, 250, 255) 0%, rgb(135, 240, 196) 50%, rgb(255, 255, 255) 95%);
+}
+
+.titleContainer h1{ 
+    text-align: center;
+    margin-bottom: 7vh;
+    font-size: 3rem;
+}
+
+.formRegister{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 3vh;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}
+
+.textContainerForm{
+    display: flex;
+    align-items: center;
+    flex-direction: column    ;
+    gap: 2vh
+    ;
+}
+
+.errortext {
+    color: red;
+    text-align: center;
+}
+
+.input {
+    padding: 10px 3px;
+    border: none;
+    border-bottom: 1px solid  ;
+}
+
+.submit{
+    padding: 12px;
+    background: linear-gradient(rgb(233, 255, 248), rgb(113, 121, 113), white);
+    color: white;
+    border: 1px solid white;
+    font-size: 1.1rem;
+}
+
+.submit:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 1s all;
+}
+
+.textContainerForm p a{
+    font-weight: bold;
+    color: #161614;
+}
+
+
