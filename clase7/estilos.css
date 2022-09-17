@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* MOBILE FIRST */
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(236, 252, 246);
+}
+
+.tienda{
+    background-color: white;
+    text-align: center;
+}
+
+.tienda img{
+    padding: 1rem;
+    width: 80%
+}
+    
+.comunidad{
+    
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+/* TABLETS */
+
+@media (min-width:768px){
+
+
+
+}

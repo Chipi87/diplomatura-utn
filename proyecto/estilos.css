@@ -1,66 +1,61 @@
 *{
 margin: o;
 padding: 0;
+text-decoration-line: none;
+list-style-type: none;
+box-sizing: border-box;
 }
 
+
 body{
+    background-color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-html{
-    font-size: 10px;
+img{
+    width: 120px;
+    height: 70px;
 }
 
-.encabezado{
-    background-image: url(./IMG/banner3.jpg);   /* IMAGEN NO QUEDA ACORDE AL ENCABEZADO */
-    background-color: rgb(201, 248, 252);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: auto;
-    height: 300vh;
-    padding: 2rem;
-    height: 10rem;
-
+.menu{
+    width: 900px;
+    margin: 0;
+    display: flex;
+    gap: 120px;
+}
+nav ul li{
+    display: flex;
+    justify-content: right;
 }
 
-.menu_superior{
-    list-style: none;
-    text-align: center;
-    
-
+nav ul li a{
+    color: rgb(76, 78, 78);
 }
-
-.menu_superior li {
-    display: inline-block;
-}
-
-.menu_superior a{
-    text-decoration: none;
-    font-size: 1.9rem;
-    color: red;
-    padding: 2rem;
-    font-weight: bold
-}
-
 #texto_inicio{
     text-align: center;
     text-decoration: underline;
-    
+    width: 23rem;
+    margin: 1rem;
+}
+
+.solotexto{
+    font-size: small;
+    text-align
 }
 
 .contenido{
-    background-color: rgb(201, 248, 252);
-    padding: 1rem;
+    width: 70vh;
 }
 
 .contenido_imagen{
-    width: 50%;
+
     text-align: center;
+    
 }
 
 .contenido_imagen img{
-    width: 80%;
-    height: 80%;
+    width: 15vh;
+    height: 15vh;
     margin: 1rem;
     box-shadow: 5px 5px rgb(107, 107, 107, 0.514);
     border-radius: 10px;
@@ -68,16 +63,19 @@ html{
 
 .contenido_inicio {
 display: flex;
-align-items: stretch;
+
 }
 
 /* FOOTER */
 
-.footer{                         
-    background-color: whitesmoke;
+.footer{            
+    width: 72vh;             
+    background-color: rgb(119, 108, 108);
+    font-size: small;
 }
 
 .bloque_footer{
+
     display: flex;
     text-decoration: none;
     justify-content: space-around;
@@ -89,4 +87,6 @@ align-items: stretch;
 
 .menu_footer a{
     color: black;
+    text-align: right
+    
 }
