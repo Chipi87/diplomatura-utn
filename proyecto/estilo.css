@@ -3,35 +3,50 @@
     margin: 0%;
     text-decoration: none;
     box-sizing: border-box;
-}
-
-.padre{
-
+    list-style: none;
 }
 
 .header {
     background-color: antiquewhite;
     display: flex;
     flex-flow: column;
-
-
 }
 
 .menu{
     background-color: aqua;
     display: flex;
-    width: 10vh;
+    width: 100%;
 }
 
 .logo{
-    background-color: black;
-}
-.nav {
-    background-color: blueviolet;
+    background-color: rgb(218, 255, 249);
+    width: 30vw;
 }
 
-.texto_principal{
+.logo img{
+    width:8rem ;
+}
+
+.nav {
+    background-color: rgb(218, 255, 249);
+    width: 80vw;
+    text-align: right;
+    padding: 1rem;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.menu_superior li a{
+    color: grey;
+}
+
+.texto_principal p{
     text-align: center;
+    font-size: x-small;
+    
 }
 
 .contenido {
