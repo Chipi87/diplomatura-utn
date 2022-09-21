@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.padre{
+
+}
+
+.header {
+    background-color: antiquewhite;
+    display: flex;
+    flex-flow: column;
+
+
+}
+
+.menu{
+    background-color: aqua;
+    display: flex;
+    width: 10vh;
+}
+
+.logo{
+    background-color: black;
+}
+.nav {
+    background-color: blueviolet;
+}
+
+.texto_principal{
+    text-align: center;
+}
+
+.contenido {
+    background-color: blue;
+}
+
+.footer{
+    background-color: blueviolet;
+}
