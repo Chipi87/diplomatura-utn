@@ -19,7 +19,7 @@
     position: relative;
 }
 
-.texto_header{
+.texto_header {
     display: flex;
     width: 100%;
     height: 430px;
@@ -27,28 +27,28 @@
     justify-content: center;
 }
 
-.nav{
+.nav {
     text-align: right;
     padding: 30px 50px 0 0;
 }
 
-.nav a{
+.nav a {
     color: aliceblue;
     font-weight: 400;
     text-decoration: none;
     margin-right: 10px;
     font-size: large;
-    
+
 }
 
-.nav a:hover{
+.nav a:hover {
     color: rgb(203, 255, 255);
     font-weight: 300;
     margin-right: 10px;
-    
+
 }
 
-.wave{
+.wave {
     position: absolute;
     bottom: 0%;
     width: 100%;
@@ -63,7 +63,7 @@
 
 }
 
-.texto_header{
+.texto_header {
     display: flex;
     padding: 30px;
     font-family: 'Dancing Script', cursive;
@@ -72,59 +72,59 @@
 }
 
 
-.trabajos_realizados{
+.trabajos_realizados {
     display: flex;
 }
 
-.contenedor{
+.contenedor {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     font-family: 'Dancing Script', cursive;
 }
 
-.contenedor h2{
+.contenedor h2 {
     font-size: 40px;
     text-align: center;
 }
 
-.galeria{
+.galeria {
     display: flex;
 }
 
-.imagenes{
+.imagenes {
     width: 24%;
     margin-bottom: 10px;
     margin: 4px;
 }
 
-.imagenes img{ 
+.imagenes img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
 
-.tipo_de_filamento{
+.tipo_de_filamento {
     font-family: 'Dancing Script', cursive;
 }
 
-.tipos{
+.tipos {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
-    
+
 }
 
-.fila_img{
+.fila_img {
     width: 30%;
     margin: 4px;
     height: 250px;
-    
+
 }
 
-.fila_img img{
+.fila_img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -133,35 +133,38 @@
 }
 
 
-.titulo{
+.titulo {
     text-align: center;
     background-color: hsla(180, 100%, 91%, 0.479);
 }
 
-footer{
+footer {
     padding: 10px;
     width: 100%;
 }
 
-.contenedor_footer{
-    background: linear-gradient(white,grey,grey);
+.contenedor_footer {
+    background: linear-gradient(white, grey, grey);
     height: 100px;
 }
 
-.whatsapp{
+.whatsapp {
     height: 10px;
     padding: 10px;
-    
+
 }
-.whatsapp img{
+
+.whatsapp img {
     width: 100%;
     height: 100%;
     padding: 10px;
 }
 
-..sobre{
+.sobre {
     text-align: center;
     align-items: center;
 }
 
-
+.texto{
+    text-align: center;
+}
