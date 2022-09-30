@@ -12,7 +12,7 @@
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(210, 32%, 62%, 0.678), hsla(204, 8%, 76%, 0.685)), url(../proyecto/img/fondook.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(210, 32%, 62%, 0.678), hsla(204, 8%, 76%, 0.685)), url(../proyecto/img/fondook.jpg);
+    background: linear-gradient(to right, hsla(204, 20%, 95%, 0.678), hsla(204, 93%, 46%, 0.685)), url(../proyecto/img/fondook.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -138,6 +138,42 @@
     background-color: hsla(180, 100%, 91%, 0.479);
 }
 
+.texto h1{
+    font-size: 70px;
+
+}
+.textoquienes{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.sobre{
+    font-size: x-large;
+    text-align: center;
+}
+
+.sobre h6{
+    font-size: 70px;
+}
+
+.container{
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carouselpadre{
+    width: auto;
+    height: 460px;
+}
+
+.whatsappboton{
+    display: flex;
+    justify-content: end;
+}
+
+
 footer {
     padding: 10px;
     width: 100%;
@@ -153,3 +189,4 @@ footer {
     padding: 10px;
 
 }
+
