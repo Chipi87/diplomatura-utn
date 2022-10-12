@@ -181,7 +181,7 @@ console.log(fruta)
 
 Clase 12 ejercicio 1
 
-*/
+
 
 nombres=["Martinez","Romero","Paredes","Messi","L.Martinez"];
 nombres.map(nombres=>{
@@ -195,3 +195,13 @@ const nombresCortos = nombres.filter((nombre) => nombre.length < 7)
 
 console.log("Nombres Largos "+ nombresCortos)
 console.log("Nombres Largos "+ nombresLargos)
+
+*/
+
+let numero=1000
+let prompt("Ingrese numero")
+if(numero == 1000 && numero > 0){
+    alert("Estas dentro de los parametros normales")
+}else (numero>1000);{
+    alert("Te pasaste de los valores asignados")
+}
