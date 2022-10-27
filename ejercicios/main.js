@@ -207,36 +207,36 @@ for(const categoria of categorias){
 
 // CREAR UN NODO APPENDCHILD
 //El método appendChild() inserta un nuevo nodo dentro de la estructura DOM de un documento,
-
+*/
 
 let titulo1 = document.createElement("h2")
 titulo1.innerHTML = "Soy desde JS";
 
 document.body.appendChild(titulo1);
-*/
+
 //PLANTILLAS LITERALES
 // creacion dinamica de nodos
 
 class Producto {
-    constructor(ID, nombre, precio){
+    constructor(ID, nombre, precio) {
         this.ID = parseInt(ID);
         this.nombre = nombre;
-        this.precio=parseFloat(precio);
+        this.precio = parseFloat(precio);
     }
 }
 
 const productos = [];
-productos.push(new Producto (1,yerba, 100));
-productos.push(new Producto (2,azucar, 80));
-productos.push(new Producto (3,te, 120));
+productos.push(new Producto(1, yerba, 100));
+productos.push(new Producto(2, azucar, 80));
+productos.push(new Producto(3, te, 120));
 
 //recorro el array pára crear um nodo en el array
 
-for(const producto of productos){
+for (const producto of productos) {
     let divProducto = document.createElement("div");
-    divProducto.innerHTML = <h3> Nombre: ${producto,nombre} </h3>
-                            <h4> Precio: ${producto,nombre} </h4>
-}
+    divProducto.innerHTML = `<h3> Nombre: ${producto.nombre} </h3> <h4> Precio: ${producto.precio}</h4>`
 
-document.body.appendChild(divProducto)
+    document.body.appendChild(divProducto)
+
+}
 
