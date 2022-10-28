@@ -69,6 +69,12 @@ html {
 
 }
 
+#reloj{
+    color: black;
+    margin: 1rem;
+    font-size: large;
+}
+
 .wave {
     position: absolute;
     bottom: 0%;
