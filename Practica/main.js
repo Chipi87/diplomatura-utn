@@ -54,4 +54,71 @@ const resultado2 = new Cuotas(2,3,4);
 console.log(resultado);
 console.log(resultado2);
 
+
+// nombrar composicion de array y cuanto caracteres tiene cada uno
+
+const nombres = ["Matias", "Nacho" , "Fran" , "Chipi"];
+
+function llamarNombre (){
+    let i = 0;
+    for(nombre of nombres){
+        console.log(nombre+" Tiene "+nombre.length+" caracteres" );
+    }
+}
+llamarNombre()
+
+
+//BUCLEO FOR
+// dentro de los parantesis van la 3 declaraciones(la primera se una con una variable i=0 ); la segunda la condicion para que se
+//ejecute el bucle y por tercer lugar la accion que queremos que haga, en este caso aumente
+for(let i = 0; i < 5; i++ ){
+    // codigo a repetir
+
+}
+
+//BUCLE WHILE
+// la variable va a afuera del bucle
+
+let i = 0
+while (i < 5){
+    //codigo a repetir
+    i++;
+}
+
+
+//foreach
+const nombres = ["Matias", "Nacho" , "Fran" , "Chipi"];
+
+nombres.forEach(nombre => {
+    console.log(nombre);
+});
+
+
+//for of
+const nombres = ["Matias", "Nacho" , "Fran" , "Chipi"];
+
+for( nombre of nombres){
+    console.log(nombre);
+}
+
+
+//FOR
+const nombres = ["Matias", "Nacho" , "Fran" , "Chipi"];
+
+for( let i = 0 ; i<nombres.length; i++){
+    console.log(nombres[i]);
+}
+
+
+//EJERCICIOS MATI
+
 */
+
+let casilleroBlanco = '\u2591';
+;
+function Negro(){
+    let casilleroNegro = '\u2588';  
+    for (let i = 0; i < 8; i++);{
+        console.log(casilleroNegro[i]);
+}
+}
