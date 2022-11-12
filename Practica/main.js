@@ -114,11 +114,19 @@ for( let i = 0 ; i<nombres.length; i++){
 
 */
 
-let casilleroBlanco = '\u2591';
-;
-function Negro(){
-    let casilleroNegro = '\u2588';  
-    for (let i = 0; i < 8; i++);{
-        console.log(casilleroNegro[i]);
-}
-}
+let primerNumero = parseInt(prompt("Ingrese primer numero") )
+let segundoNumero = parseInt(prompt("Ingrese segundo numero") )
+
+if(primerNumero>segundoNumero){
+    alert("El primero es mayor")
+    }
+    else{
+        if(primerNumero===segundoNumero){
+            alert("IGuales")
+        }
+        else{
+            alert(" El segundo es mayor")
+        }
+    }
+
+
