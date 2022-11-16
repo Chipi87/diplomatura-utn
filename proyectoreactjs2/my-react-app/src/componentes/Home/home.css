@@ -12,9 +12,10 @@
 .textIntro{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
+    font-size: x-large;
 }
 
 .imgcss{
-    width: 95%;
-    height: 38rem;
+    width: 80%;
+    height: 45vw;
 }

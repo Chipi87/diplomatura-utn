@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./componentes/Navbar/Navbar.js";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./componentes/Home/Home"
+import Contacto from './componentes/Contacto/contacto';
 
 
 
@@ -13,11 +14,12 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Switch>
-        <Route>
+        <Route exact path="/Home">
           <Home />
 
         </Route>
-        <Route>
+        <Route exact path="/contacto">
+          <Contacto />
 
         </Route>
       </Switch >
