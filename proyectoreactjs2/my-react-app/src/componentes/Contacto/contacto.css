@@ -1,0 +1,24 @@
+h2{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.contact{
+    background-color: rgba(248, 237, 223, 0.452);
+    font-family: 'Dancing Script', cursive;
+    border-radius: 1px;
+    padding: 2%;
+    text-align: center;
+}
+
+.typetext{
+    width: 30%;
+    margin-bottom: 20px;
+
+}
+
+.tipocab{
+    margin-bottom: 60px;
+}
+
