@@ -4,7 +4,7 @@ import"./Galeria.css"
 
 const Galeria =() => {
     //cantidadDeimagenes define las imagenes a mostrar
-    let cantidadDeImagenes = 5;
+    let cantidadDeImagenes = 9;
     //inicaLista es una funcion flecha con un parametro cantidad. 
     const iniciaLista = (cantidad) =>{
         //lista el array vacio que se va llenando y muestra las imagenes.

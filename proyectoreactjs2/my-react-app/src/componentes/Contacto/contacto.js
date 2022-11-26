@@ -12,7 +12,7 @@ const Contacto = () => {
     return (
         <>
             <form onSubmit={handleSubmit(onSubmit)} className="contact">
-                <div>
+                <div className="contactregister">
                     <h2> Formulario de Contacto </h2>
                     <label>Nombre:</label>
                     <input type="text"placeholder="Nombre" {...register("nombre", { require: true, maslength: 10 })} className="typetext" />
@@ -20,7 +20,7 @@ const Contacto = () => {
                     {errors.nombre?.type === "maxlength" && <p> El campo debe contener mas 10 caracteres </p>}
                 </div>
                 <div>
-                    <label>Apellido:  </label>
+                    <label>Apellido: </label>
                     <input type="text" placeholder="Apellido"{...register("apellido", { require: true, maslength: 10 })} className="typetext" />
                 </div>
                 <div>
