@@ -15,22 +15,22 @@ const Contacto = () => {
                 <div>
                     <h2> Formulario de Contacto </h2>
                     <label>Nombre:</label>
-                    <input type="text" {...register("nombre", { require: true, maslength: 10 })} className="typetext" />
+                    <input type="text"placeholder="Nombre" {...register("nombre", { require: true, maslength: 10 })} className="typetext" />
                     {errors.nombre?.type === "required" && <p> El campo nombre es obligatorio </p>}
                     {errors.nombre?.type === "maxlength" && <p> El campo debe contener mas 10 caracteres </p>}
                 </div>
                 <div>
                     <label>Apellido:  </label>
-                    <input type="text"{...register("apellido", { require: true, maslength: 10 })} className="typetext" />
+                    <input type="text" placeholder="Apellido"{...register("apellido", { require: true, maslength: 10 })} className="typetext" />
                 </div>
                 <div>
                     <div><label>Telefono:  </label>
-                        <input type="text"{...register("apellido", { require: true, maslength: 10 })} className="typetext" /></div>
-                    <div><label> Cantidad de personas:  </label>
-                        <input type="text"{...register("apellido", { require: true, maslength: 10 })} className="typetext" /></div>
+                        <input type="tel" placeholder="Telefono"{...register("apellido", { require: true, maslength: 10 })} className="typetext" /></div>
+                    <div><label>personas:  </label>
+                        <input type="number" min="1" max="8" placeholder="Personas" step="1"{...register("apellido", { require: true, maslength: 10 })} className="typetext" /></div>
                     <div>
                         <label> Email:  </label>
-                        <input type="text"{...register("email", { pattern: /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/ })} className="typetext" />
+                        <input type="email" placeholder="Email"{...register("email", { pattern: /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/ })} className="typetext" />
                         {errors.nombre?.type === "pattern" && <p> El formato es incorrecto </p>}
                     </div>
                     <label>Tipo de cabaña</label>

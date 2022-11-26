@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./componentes/Home/Home"
 import Contacto from './componentes/Contacto/contacto';
 import Cabaña from "./componentes/Cabañas/cabañas";
+import Galeria from "./componentes/imagenes/Galeria";
 
 
 
@@ -15,7 +16,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Switch>
-        <Route exact path="/Home">
+        <Route exact path="/">
           <Home />
 
         </Route>
@@ -25,6 +26,10 @@ function App() {
         </Route>
         <Route exact path="/Cabaña">
           <Cabaña/>
+
+        </Route>
+        <Route exact path="/Galeria">
+          <Galeria/>
 
         </Route>
       </Switch >

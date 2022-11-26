@@ -8,7 +8,7 @@ const Home = () => {
 
         <section className="sectionintro">
             <div className="imgdiv">
-                <img src={Intro} className="imgcss" alt="imgintro" />
+                <img className="imgcss" alt="imgintro" />
             </div>
             <div>
                 <h2 className="textIntro">
