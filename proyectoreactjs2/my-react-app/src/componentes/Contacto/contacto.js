@@ -33,6 +33,10 @@ const Contacto = () => {
                         <input type="email" placeholder="Email"{...register("email", { pattern: /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/ })} className="typetext" />
                         {errors.nombre?.type === "pattern" && <p> El formato es incorrecto </p>}
                     </div>
+                    <div>
+                    <textarea type="text" placeholder="Comentario" {...register("apellido", { require: true, minlength: 10 })} className="typetext"> 
+                    </textarea>
+                </div>
                     <label>Tipo de cabaña</label>
                     <select className="tipocab">
                         <option value="cab1"> Cabaña1</option>
@@ -40,6 +44,7 @@ const Contacto = () => {
                         <option value="cab3"> Cabaña3</option>
                     </select>
                 </div>
+
                 <input type="submit" value="Enviar"/>
             </form>
 

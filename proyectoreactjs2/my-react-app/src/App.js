@@ -7,6 +7,7 @@ import Home from "./componentes/Home/Home"
 import Contacto from './componentes/Contacto/contacto';
 import Cabaña from "./componentes/Cabañas/cabañas";
 import Galeria from "./componentes/imagenes/Galeria";
+import Footer from "./componentes/Footer/Footer"
 
 
 
@@ -32,7 +33,9 @@ function App() {
           <Galeria/>
 
         </Route>
+        
       </Switch >
+      <Footer/>
     </BrowserRouter>
   );
 }
