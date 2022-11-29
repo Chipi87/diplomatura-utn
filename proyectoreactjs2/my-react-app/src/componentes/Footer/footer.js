@@ -4,6 +4,8 @@ import goo from "./Redes/google.svg"
 import insta from "./Redes/instagram.svg"
 import linke from "./Redes/linkedin.svg"
 import twitt from "./Redes/twitter.svg"
+import whatsapp from "./Redes/icons8-whatsapp.svg"
+
 import "./Footer.css";
 
 const Footer = () => {
@@ -39,8 +41,17 @@ const Footer = () => {
                 </a>
             </section>
             <div className="reserva">
-                <p>Hipólito Yrigoyen 1737. (CP.7000) Mar del Plata. Bs AS. Argentina.  //  RESERVAS TELEFÓNICAS: 0223-495.00.81 y 0800-345.90.90</p>
+                <p>De los pinos 1111 (CP.7609) Mar de Cobo. Bs AS. Argentina.  //  RESERVAS TELEFÓNICAS: 0223-411-1111</p>
             </div>
+            <div>
+            <div className="whatsapp">
+            <a className="btn-wsp" href="https://api.whatsapp.com/send?phone=11111111" role="button"><i
+                    className="whatsapp"><img src={whatsapp} alt="" /></i>
+                </a>
+                </div>
+            </div>
+
+
         </div>
         
     );

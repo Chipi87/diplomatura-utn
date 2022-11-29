@@ -10,11 +10,9 @@ const Home = () => {
             <div className="imgdiv">
                 <img className="imgcss" alt="imgintro" />
             </div>
-            <div>
+            <div className="divtext">
                 <h2 className="textIntro">
-                    <p>
-                        Un entorno de ensueño con la naturaleza en todo su esplendor
-                    </p>
+                    <p>Un entorno de ensueño con la naturaleza en todo su esplendor </p>
                 </h2>
 
             </div>
